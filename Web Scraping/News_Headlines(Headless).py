@@ -2,9 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 import pandas as pd
-from datetime import datetime
-import os
-import sys
 
 web = 'https://news.sky.com/'
 path = "C:/Users/walet/Downloads/chromedriver-win64/chromedriver.exe" # introduce path here
